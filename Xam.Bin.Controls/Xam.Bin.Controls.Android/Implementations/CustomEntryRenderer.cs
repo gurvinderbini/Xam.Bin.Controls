@@ -32,9 +32,9 @@ namespace Xam.Bin.Controls.Droid.Implementations
             if (Control == null || e.NewElement == null) return;
 
             if (Build.VERSION.SdkInt >= BuildVersionCodes.Lollipop)
-                Control.BackgroundTintList = ColorStateList.ValueOf(Android.Graphics.Color.ParseColor("#ffffff"));
+                Control.BackgroundTintList = ColorStateList.ValueOf(ColorExtensions.ToAndroid(entry.UnderlineColor));
             else
-                Control.Background.SetColorFilter(Android.Graphics.Color.ParseColor(entry.UnderlineColor), PorterDuff.Mode.SrcAtop);
+                Control.Background.SetColorFilter(ColorExtensions.ToAndroid(entry.UnderlineColor), PorterDuff.Mode.SrcAtop);
 
             // "#ffffff" White Color
         }

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata minClientVersion="2.8.1">
     <id>Xam.Bin.Controls</id>
-    <version>1.0</version>
+    <version>1.1</version>
     <title>Xam.Bin.Controls</title>
     <authors>Gurvinder Singh</authors>
     <owners>Gurvinder Singh</owners>
@@ -10,12 +10,12 @@
     <projectUrl>https://github.com/gurvinderbini/Xam.Bin.Controls</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
-  Custom Controls for Xamarin Forms
+      Custom Controls for Xamarin Forms
     </description>
-    <summary>Display a store rating dialog.</summary>
+    <summary>Custom Entry,Custom Picker for Xamarin Forms.</summary>
     <tags>xamarin, pcl, xam.pcl, store rating, rating, review, windows phone, winphone, wp8, android, xamarin.forms, ios</tags>
     <dependencies>
-      <dependency id="Xamarin.Forms" version="2.5.0.280555" />
+      <dependency id="Xamarin.Forms" version="2.3.4.231" />
       <!--<dependency id="Xam.Plugins.Settings" version="1.4.0.1" />-->
     </dependencies>
   </metadata>
