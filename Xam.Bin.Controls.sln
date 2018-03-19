@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xam.Bin.Controls.iOS", "Xam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xam.Bin.Controls", "Xam.Bin.Controls\Xam.Bin.Controls\Xam.Bin.Controls.csproj", "{9EBDB96E-CDB2-4308-8C75-2D85EA18189E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{66DBD11C-9D56-49E4-8D35-270B682BED1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Targets", "Targets", "{86F278BB-BAD0-4C28-B91E-4902A59A43D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
@@ -108,6 +112,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0754369-BB5B-4ADB-961A-F70B3DFDC9C9} = {86F278BB-BAD0-4C28-B91E-4902A59A43D4}
+		{3DEA9C72-ACD4-47EB-97D3-C56F234598E3} = {86F278BB-BAD0-4C28-B91E-4902A59A43D4}
+		{9EBDB96E-CDB2-4308-8C75-2D85EA18189E} = {66DBD11C-9D56-49E4-8D35-270B682BED1C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8370F279-0245-4CCB-AD87-6CE8DB2B3CBA}
