@@ -88,6 +88,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Implementation\CustomEntryRenderer.cs" />
     <Compile Include="Implementation\CustomPickerImplementations.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
@@ -122,11 +123,11 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.280555" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\Xam.Bin.Controls\Xam.Bin.Controls.csproj">
-      <Project>{E5F7CDC0-6176-4647-8DFB-B4D24BD444D6}</Project>
+      <Project>{9ebdb96e-cdb2-4308-8c75-2d85ea18189e}</Project>
       <Name>Xam.Bin.Controls</Name>
     </ProjectReference>
   </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
