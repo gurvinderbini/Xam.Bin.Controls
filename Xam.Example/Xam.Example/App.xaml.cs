@@ -5,7 +5,7 @@ using System.Text;
 
 using Xamarin.Forms;
 
-namespace Xam.Bin.Controls
+namespace Xam.Example
 {
 	public partial class App : Application
 	{
@@ -13,7 +13,7 @@ namespace Xam.Bin.Controls
 		{
 			InitializeComponent();
 
-			MainPage = new Xam.Bin.Controls.MainPage();
+			MainPage = new Xam.Example.MainPage();
 		}
 
 		protected override void OnStart ()

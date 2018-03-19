@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A0754369-BB5B-4ADB-961A-F70B3DFDC9C9}</ProjectGuid>
+    <ProjectGuid>{0EDD3EF7-0CF9-4FA3-AF94-5CE8777FCB2A}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>Xam.Bin.Controls.Droid</RootNamespace>
-    <AssemblyName>Xam.Bin.Controls.Android</AssemblyName>
+    <RootNamespace>Xam.Example.Droid</RootNamespace>
+    <AssemblyName>Xam.Example.Android</AssemblyName>
     <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
@@ -38,7 +38,6 @@
     <WarningLevel>4</WarningLevel>
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
-    <DocumentationFile>bin\Release\Xam.Bin.Controls.Android.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
@@ -56,9 +55,6 @@
     <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="25.4.0.2" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Implementations\CustomEntryRenderer.cs" />
-    <Compile Include="Implementations\CustomLabelRenderer.cs" />
-    <Compile Include="Implementations\CustomPickerImplementations.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -83,11 +79,14 @@
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
+
   <ItemGroup>
-    <ProjectReference Include="..\Xam.Bin.Controls\Xam.Bin.Controls.csproj">
-      <Project>{9ebdb96e-cdb2-4308-8c75-2d85ea18189e}</Project>
-      <Name>Xam.Bin.Controls</Name>
+    <ProjectReference Include="..\Xam.Example\Xam.Example.csproj">
+      <Project>{CC99B781-D0DA-4E8A-82E4-F1B412B72CC5}</Project>
+      <Name>Xam.Example</Name>
     </ProjectReference>
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+
+
+ <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
