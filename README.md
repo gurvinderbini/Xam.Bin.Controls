@@ -16,3 +16,8 @@ Add a namespace
 using Xam.Bin.Controls.Controls;
 
 ```
+**Authors**
+
+https://github.com/gurvinderbini
+
+
