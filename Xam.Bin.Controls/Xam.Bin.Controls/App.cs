@@ -11,21 +11,18 @@ namespace Xam.Bin.Controls
 
         public App()
         {
-            //StackLayout stackLayout = new StackLayout();
+            StackLayout stackLayout = new StackLayout();
 
-            //stackLayout.Children.Add(new CustomEntry()
-            //{
-            //    IsCurvedCornersEnabled = true,
-            //    BorderColor = Color.Blue,
-            //    CornerRadius = 10d,
-            //    BorderWidth = 2
-            //});
+            BinSegmentedControl bin=new BinSegmentedControl();
+            bin.Children.Add(new BinSegmentedControlOption(){Text = "test"});
+            bin.Children.Add(new BinSegmentedControlOption() { Text = "test2" });
 
-            //MainPage=new ContentPage()
-            //{
+            stackLayout.Children.Add(bin);
+            MainPage = new ContentPage()
+            {
 
-            //    Content = stackLayout
-            //};
+                Content = stackLayout
+            };
         }
     }
 }

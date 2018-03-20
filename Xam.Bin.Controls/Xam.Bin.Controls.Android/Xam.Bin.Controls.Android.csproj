@@ -56,6 +56,7 @@
     <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="25.4.0.2" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Implementations\BinSegmentedControlRenderer.cs" />
     <Compile Include="Implementations\CustomEntryRenderer.cs" />
     <Compile Include="Implementations\CustomLabelRenderer.cs" />
     <Compile Include="Implementations\CustomPickerImplementations.cs" />
@@ -66,6 +67,8 @@
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\layout\RadioButton.axml" />
+    <AndroidResource Include="Resources\layout\RadioGroup.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icon.png" />
@@ -88,6 +91,21 @@
       <Project>{9ebdb96e-cdb2-4308-8c75-2d85ea18189e}</Project>
       <Name>Xam.Bin.Controls</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\segmented_control_background.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\segmented_control_first_background.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\segmented_control_last_background.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\color\segmented_control_text.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\colors.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

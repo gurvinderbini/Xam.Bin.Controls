@@ -1173,44 +1173,44 @@ namespace Xam.Bin.Controls.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0c004a
-			public const int abc_background_cache_hint_selector_material_dark = 2131492938;
-			
-			// aapt resource value: 0x7f0c004b
-			public const int abc_background_cache_hint_selector_material_light = 2131492939;
-			
 			// aapt resource value: 0x7f0c004c
-			public const int abc_btn_colored_borderless_text_material = 2131492940;
+			public const int abc_background_cache_hint_selector_material_dark = 2131492940;
 			
 			// aapt resource value: 0x7f0c004d
-			public const int abc_btn_colored_text_material = 2131492941;
+			public const int abc_background_cache_hint_selector_material_light = 2131492941;
 			
 			// aapt resource value: 0x7f0c004e
-			public const int abc_color_highlight_material = 2131492942;
+			public const int abc_btn_colored_borderless_text_material = 2131492942;
 			
 			// aapt resource value: 0x7f0c004f
-			public const int abc_hint_foreground_material_dark = 2131492943;
+			public const int abc_btn_colored_text_material = 2131492943;
 			
 			// aapt resource value: 0x7f0c0050
-			public const int abc_hint_foreground_material_light = 2131492944;
+			public const int abc_color_highlight_material = 2131492944;
+			
+			// aapt resource value: 0x7f0c0051
+			public const int abc_hint_foreground_material_dark = 2131492945;
+			
+			// aapt resource value: 0x7f0c0052
+			public const int abc_hint_foreground_material_light = 2131492946;
 			
 			// aapt resource value: 0x7f0c0005
 			public const int abc_input_method_navigation_guard = 2131492869;
 			
-			// aapt resource value: 0x7f0c0051
-			public const int abc_primary_text_disable_only_material_dark = 2131492945;
-			
-			// aapt resource value: 0x7f0c0052
-			public const int abc_primary_text_disable_only_material_light = 2131492946;
-			
 			// aapt resource value: 0x7f0c0053
-			public const int abc_primary_text_material_dark = 2131492947;
+			public const int abc_primary_text_disable_only_material_dark = 2131492947;
 			
 			// aapt resource value: 0x7f0c0054
-			public const int abc_primary_text_material_light = 2131492948;
+			public const int abc_primary_text_disable_only_material_light = 2131492948;
 			
 			// aapt resource value: 0x7f0c0055
-			public const int abc_search_url_text = 2131492949;
+			public const int abc_primary_text_material_dark = 2131492949;
+			
+			// aapt resource value: 0x7f0c0056
+			public const int abc_primary_text_material_light = 2131492950;
+			
+			// aapt resource value: 0x7f0c0057
+			public const int abc_search_url_text = 2131492951;
 			
 			// aapt resource value: 0x7f0c0006
 			public const int abc_search_url_text_normal = 2131492870;
@@ -1221,32 +1221,32 @@ namespace Xam.Bin.Controls.Droid
 			// aapt resource value: 0x7f0c0008
 			public const int abc_search_url_text_selected = 2131492872;
 			
-			// aapt resource value: 0x7f0c0056
-			public const int abc_secondary_text_material_dark = 2131492950;
-			
-			// aapt resource value: 0x7f0c0057
-			public const int abc_secondary_text_material_light = 2131492951;
-			
 			// aapt resource value: 0x7f0c0058
-			public const int abc_tint_btn_checkable = 2131492952;
+			public const int abc_secondary_text_material_dark = 2131492952;
 			
 			// aapt resource value: 0x7f0c0059
-			public const int abc_tint_default = 2131492953;
+			public const int abc_secondary_text_material_light = 2131492953;
 			
 			// aapt resource value: 0x7f0c005a
-			public const int abc_tint_edittext = 2131492954;
+			public const int abc_tint_btn_checkable = 2131492954;
 			
 			// aapt resource value: 0x7f0c005b
-			public const int abc_tint_seek_thumb = 2131492955;
+			public const int abc_tint_default = 2131492955;
 			
 			// aapt resource value: 0x7f0c005c
-			public const int abc_tint_spinner = 2131492956;
+			public const int abc_tint_edittext = 2131492956;
 			
 			// aapt resource value: 0x7f0c005d
-			public const int abc_tint_switch_thumb = 2131492957;
+			public const int abc_tint_seek_thumb = 2131492957;
 			
 			// aapt resource value: 0x7f0c005e
-			public const int abc_tint_switch_track = 2131492958;
+			public const int abc_tint_spinner = 2131492958;
+			
+			// aapt resource value: 0x7f0c005f
+			public const int abc_tint_switch_thumb = 2131492959;
+			
+			// aapt resource value: 0x7f0c0060
+			public const int abc_tint_switch_track = 2131492960;
 			
 			// aapt resource value: 0x7f0c0009
 			public const int accent_material_dark = 2131492873;
@@ -1305,8 +1305,8 @@ namespace Xam.Bin.Controls.Droid
 			// aapt resource value: 0x7f0c003f
 			public const int design_bottom_navigation_shadow_color = 2131492927;
 			
-			// aapt resource value: 0x7f0c005f
-			public const int design_error = 2131492959;
+			// aapt resource value: 0x7f0c0061
+			public const int design_error = 2131492961;
 			
 			// aapt resource value: 0x7f0c0040
 			public const int design_fab_shadow_end_color = 2131492928;
@@ -1338,8 +1338,8 @@ namespace Xam.Bin.Controls.Droid
 			// aapt resource value: 0x7f0c0049
 			public const int design_textinput_error_color_light = 2131492937;
 			
-			// aapt resource value: 0x7f0c0060
-			public const int design_tint_password_toggle = 2131492960;
+			// aapt resource value: 0x7f0c0062
+			public const int design_tint_password_toggle = 2131492962;
 			
 			// aapt resource value: 0x7f0c0017
 			public const int dim_foreground_disabled_material_dark = 2131492887;
@@ -1401,6 +1401,9 @@ namespace Xam.Bin.Controls.Droid
 			// aapt resource value: 0x7f0c002a
 			public const int material_grey_900 = 2131492906;
 			
+			// aapt resource value: 0x7f0c004a
+			public const int normal = 2131492938;
+			
 			// aapt resource value: 0x7f0c0004
 			public const int notification_action_color_filter = 2131492868;
 			
@@ -1452,17 +1455,23 @@ namespace Xam.Bin.Controls.Droid
 			// aapt resource value: 0x7f0c003a
 			public const int secondary_text_disabled_material_light = 2131492922;
 			
+			// aapt resource value: 0x7f0c0063
+			public const int segmented_control_text = 2131492963;
+			
+			// aapt resource value: 0x7f0c004b
+			public const int selected = 2131492939;
+			
 			// aapt resource value: 0x7f0c003b
 			public const int switch_thumb_disabled_material_dark = 2131492923;
 			
 			// aapt resource value: 0x7f0c003c
 			public const int switch_thumb_disabled_material_light = 2131492924;
 			
-			// aapt resource value: 0x7f0c0061
-			public const int switch_thumb_material_dark = 2131492961;
+			// aapt resource value: 0x7f0c0064
+			public const int switch_thumb_material_dark = 2131492964;
 			
-			// aapt resource value: 0x7f0c0062
-			public const int switch_thumb_material_light = 2131492962;
+			// aapt resource value: 0x7f0c0065
+			public const int switch_thumb_material_light = 2131492965;
 			
 			// aapt resource value: 0x7f0c003d
 			public const int switch_thumb_normal_material_dark = 2131492925;
@@ -2192,26 +2201,26 @@ namespace Xam.Bin.Controls.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02010e
-			public const int avd_hide_password_1 = 2130837774;
+			// aapt resource value: 0x7f020111
+			public const int avd_hide_password_1 = 2130837777;
 			
-			// aapt resource value: 0x7f02010f
-			public const int avd_hide_password_2 = 2130837775;
+			// aapt resource value: 0x7f020112
+			public const int avd_hide_password_2 = 2130837778;
 			
-			// aapt resource value: 0x7f020110
-			public const int avd_hide_password_3 = 2130837776;
+			// aapt resource value: 0x7f020113
+			public const int avd_hide_password_3 = 2130837779;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f020111
-			public const int avd_show_password_1 = 2130837777;
+			// aapt resource value: 0x7f020114
+			public const int avd_show_password_1 = 2130837780;
 			
-			// aapt resource value: 0x7f020112
-			public const int avd_show_password_2 = 2130837778;
+			// aapt resource value: 0x7f020115
+			public const int avd_show_password_2 = 2130837781;
 			
-			// aapt resource value: 0x7f020113
-			public const int avd_show_password_3 = 2130837779;
+			// aapt resource value: 0x7f020116
+			public const int avd_show_password_3 = 2130837782;
 			
 			// aapt resource value: 0x7f020055
 			public const int design_bottom_navigation_item_background = 2130837589;
@@ -2756,17 +2765,26 @@ namespace Xam.Bin.Controls.Droid
 			// aapt resource value: 0x7f020109
 			public const int notification_icon_background = 2130837769;
 			
-			// aapt resource value: 0x7f02010c
-			public const int notification_template_icon_bg = 2130837772;
+			// aapt resource value: 0x7f02010f
+			public const int notification_template_icon_bg = 2130837775;
 			
-			// aapt resource value: 0x7f02010d
-			public const int notification_template_icon_low_bg = 2130837773;
+			// aapt resource value: 0x7f020110
+			public const int notification_template_icon_low_bg = 2130837776;
 			
 			// aapt resource value: 0x7f02010a
 			public const int notification_tile_bg = 2130837770;
 			
 			// aapt resource value: 0x7f02010b
 			public const int notify_panel_notification_icon_bg = 2130837771;
+			
+			// aapt resource value: 0x7f02010c
+			public const int segmented_control_background = 2130837772;
+			
+			// aapt resource value: 0x7f02010d
+			public const int segmented_control_first_background = 2130837773;
+			
+			// aapt resource value: 0x7f02010e
+			public const int segmented_control_last_background = 2130837774;
 			
 			static Drawable()
 			{
@@ -2780,6 +2798,9 @@ namespace Xam.Bin.Controls.Droid
 		
 		public partial class Id
 		{
+			
+			// aapt resource value: 0x7f0800b2
+			public const int SegControl = 2131230898;
 			
 			// aapt resource value: 0x7f08009e
 			public const int action0 = 2131230878;
@@ -3009,8 +3030,8 @@ namespace Xam.Bin.Controls.Droid
 			// aapt resource value: 0x7f080048
 			public const int list_item = 2131230792;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int masked = 2131230901;
+			// aapt resource value: 0x7f0800b6
+			public const int masked = 2131230902;
 			
 			// aapt resource value: 0x7f0800a1
 			public const int media_actions = 2131230881;
@@ -3198,6 +3219,9 @@ namespace Xam.Bin.Controls.Droid
 			// aapt resource value: 0x7f080072
 			public const int select_dialog_listview = 2131230834;
 			
+			// aapt resource value: 0x7f0800b7
+			public const int shape_id = 2131230903;
+			
 			// aapt resource value: 0x7f08005c
 			public const int shortcut = 2131230812;
 			
@@ -3210,8 +3234,8 @@ namespace Xam.Bin.Controls.Droid
 			// aapt resource value: 0x7f080017
 			public const int showTitle = 2131230743;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int sliding_tabs = 2131230898;
+			// aapt resource value: 0x7f0800b3
+			public const int sliding_tabs = 2131230899;
 			
 			// aapt resource value: 0x7f080073
 			public const int smallLabel = 2131230835;
@@ -3288,8 +3312,8 @@ namespace Xam.Bin.Controls.Droid
 			// aapt resource value: 0x7f080057
 			public const int title_template = 2131230807;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int toolbar = 2131230899;
+			// aapt resource value: 0x7f0800b4
+			public const int toolbar = 2131230900;
 			
 			// aapt resource value: 0x7f080029
 			public const int top = 2131230761;
@@ -3315,8 +3339,8 @@ namespace Xam.Bin.Controls.Droid
 			// aapt resource value: 0x7f08000e
 			public const int view_offset_helper = 2131230734;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int visible = 2131230900;
+			// aapt resource value: 0x7f0800b5
+			public const int visible = 2131230901;
 			
 			// aapt resource value: 0x7f080093
 			public const int volume_item_container = 2131230867;
@@ -3595,22 +3619,28 @@ namespace Xam.Bin.Controls.Droid
 			public const int notification_template_part_time = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int select_dialog_item_material = 2130903102;
+			public const int RadioButton = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int select_dialog_multichoice_material = 2130903103;
+			public const int RadioGroup = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int select_dialog_singlechoice_material = 2130903104;
+			public const int select_dialog_item_material = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int support_simple_spinner_dropdown_item = 2130903105;
+			public const int select_dialog_multichoice_material = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int Tabbar = 2130903106;
+			public const int select_dialog_singlechoice_material = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int Toolbar = 2130903107;
+			public const int support_simple_spinner_dropdown_item = 2130903107;
+			
+			// aapt resource value: 0x7f030044
+			public const int Tabbar = 2130903108;
+			
+			// aapt resource value: 0x7f030045
+			public const int Toolbar = 2130903109;
 			
 			static Layout()
 			{

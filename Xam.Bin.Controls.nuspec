@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata minClientVersion="2.8.1">
     <id>Xam.Bin.Controls</id>
-    <version>1.4</version>
+    <version>1.5</version>
     <title>Xam.Bin.Controls</title>
-    <authors>Gurvinder Singh</authors>
-    <owners>Gurvinder Singh</owners>
+    <authors>Gurvinder Binny</authors>
+    <owners>Gurvinder Binny</owners>
     <licenseUrl>https://github.com/gurvinderbini/Xam.Bin.Controls</licenseUrl>
     <projectUrl>https://github.com/gurvinderbini/Xam.Bin.Controls</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
