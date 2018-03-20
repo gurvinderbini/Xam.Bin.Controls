@@ -5,10 +5,10 @@ using Xamarin.Forms;
 
 namespace Xam.Bin.Controls.Controls
 {
-    public class CustomEntry : Entry
+    public class BinEntry : Entry
     {
         public static readonly BindableProperty UnderlineColorProperty = BindableProperty.Create(nameof(UnderlineColor),
-            typeof(Xamarin.Forms.Color), typeof(CustomPicker), Xamarin.Forms.Color.Transparent, BindingMode.TwoWay);
+            typeof(Xamarin.Forms.Color), typeof(BinPicker), Xamarin.Forms.Color.Transparent, BindingMode.TwoWay);
         public Xamarin.Forms.Color UnderlineColor
         {
             get { return (Xamarin.Forms.Color)this.GetValue(UnderlineColorProperty); }
@@ -20,7 +20,7 @@ namespace Xam.Bin.Controls.Controls
             BindableProperty.Create(
                 nameof(BorderColor),
                 typeof(Color),
-                typeof(CustomEntry),
+                typeof(BinEntry),
                 Color.Gray);
 
         // Gets or sets BorderColor value
@@ -34,7 +34,7 @@ namespace Xam.Bin.Controls.Controls
             BindableProperty.Create(
                 nameof(BorderWidth),
                 typeof(int),
-                typeof(CustomEntry),
+                typeof(BinEntry),
                 Device.OnPlatform<int>(1, 2, 2));
 
         // Gets or sets BorderWidth value
@@ -48,7 +48,7 @@ namespace Xam.Bin.Controls.Controls
             BindableProperty.Create(
                 nameof(CornerRadius),
                 typeof(double),
-                typeof(CustomEntry),
+                typeof(BinEntry),
                 Device.OnPlatform<double>(6, 7, 7));
 
         // Gets or sets CornerRadius value
@@ -62,7 +62,7 @@ namespace Xam.Bin.Controls.Controls
             BindableProperty.Create(
                 nameof(IsCurvedCornersEnabled),
                 typeof(bool),
-                typeof(CustomEntry),
+                typeof(BinEntry),
                 true);
 
         // Gets or sets IsCurvedCornersEnabled value

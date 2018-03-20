@@ -1,23 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-using Android.App;
-using Android.Content;
 using Android.Graphics;
 using Android.Graphics.Drawables;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+
 using Xam.Bin.Controls.Controls;
 using Xam.Bin.Controls.Droid.Implementations;
+
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
 
-[assembly: ExportRenderer(typeof(CustomPicker), typeof(CustomPickerRenderer))]
+[assembly: ExportRenderer(typeof(BinPicker), typeof(CustomPickerRenderer))]
 namespace Xam.Bin.Controls.Droid.Implementations
 {
 #pragma warning disable CS0618 // Type or member is obsolete
@@ -27,7 +20,7 @@ namespace Xam.Bin.Controls.Droid.Implementations
         {
             base.OnElementChanged(e);
 
-            var picker = e.NewElement as CustomPicker;
+            var picker = e.NewElement as BinPicker;
           
             if (Control == null || e.NewElement == null) return;
 
@@ -40,7 +33,7 @@ namespace Xam.Bin.Controls.Droid.Implementations
       
         }
 
-        private void SetControlStyle(CustomPicker picker)
+        private void SetControlStyle(BinPicker picker)
         {
             if (Control != null)
             {

@@ -11,7 +11,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
 
-[assembly: ExportRenderer(typeof(CustomPicker), typeof(CustomPickerRenderer))]
+[assembly: ExportRenderer(typeof(BinPicker), typeof(CustomPickerRenderer))]
 namespace Xam.Bin.Controls.iOS.Implementation
 {
     public class CustomPickerRenderer : PickerRenderer
@@ -20,7 +20,7 @@ namespace Xam.Bin.Controls.iOS.Implementation
         {
             base.OnElementChanged(e);
 
-            var picker = e.NewElement as CustomPicker;
+            var picker = e.NewElement as BinPicker;
             if (Control == null || e.NewElement == null) return;
             Control.BackgroundColor = ColorExtensions.ToUIColor(picker.UnderlineColor);
             Control.AttributedPlaceholder = new NSAttributedString(Control.AttributedPlaceholder.Value, foregroundColor: ColorExtensions.ToUIColor(picker.TitleColor));
@@ -29,7 +29,7 @@ namespace Xam.Bin.Controls.iOS.Implementation
                 SetBackImage(picker);
         }
 
-        private void SetBackImage(CustomPicker picker)
+        private void SetBackImage(BinPicker picker)
         {
             UIImage img = UIImage.FromBundle(picker.PickerIcon);
             var imageView = new UIImageView(img)
